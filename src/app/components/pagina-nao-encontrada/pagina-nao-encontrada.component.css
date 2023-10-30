@@ -1,0 +1,6 @@
+.pagina-nao-encontrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
