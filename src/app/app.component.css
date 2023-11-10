@@ -1,1 +1,31 @@
+.example-container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 90vh;
+}
 
+.main {
+    padding: 20px;
+}
+
+.menu-item {
+    height: 80px;
+}
+
+mat-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mat-icon,
+a {
+    display: flex;
+    margin-right: 5px;
+}
+
+.active {
+    color: red;
+    opacity: 0.7;
+    transition: 0.2s;
+}

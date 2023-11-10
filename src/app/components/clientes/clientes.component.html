@@ -1,5 +1,9 @@
 <h1>Clientes</h1>
-<a class="button" routerLink="novo">Novo</a>
-<a class="button" routerLink="editar/{{ id }}">Editar</a>
-<input type="text" [(ngModel)]="id" />
+<div class="btn-container">
+    <button mat-raised-button>
+        <mat-icon>add</mat-icon>
+        <a routerLink="novo">Novo</a>
+    </button>
+</div>
+<mat-divider></mat-divider>
 <router-outlet></router-outlet>
